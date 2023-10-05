@@ -1,4 +1,4 @@
-Bu websitesi Tamer Usta adına yapılmıştır. Kullanımı ona ayittir. 
+Bu websitesi Tamer Usta adına yapılmıştır. Kullanımı ona aittir. 
 
 Fotoğraflar lisanlıdır kullanmanız halinde telif hakkı talebinde bulunulabilir !
 
