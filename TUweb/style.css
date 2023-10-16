@@ -2,32 +2,11 @@ body {
   font-family: Arial, sans-serif;
   margin: 0px;
   background-color:bisque;
-  overflow: auto;
+}
 
 .header {
   background: linear-gradient(to right, #ff7e5f, #fcea23);
   text-align: center;
-  padding: 20px 0;
-}
-
-#slogan {
-  font-size: 2em;
-}
-
-.aboutus {
-  border-radius: 10px;
-  background-color: #1a5e89;
-  color: whitesmoke;
-  font-size: 1.2em;
-  text-align: center;
-  padding: 20px;
-
-}
-
-#hizmetlerimiz {
-  border: black 2px groove;
-  padding: 10px;
-  font-size: 2em;
 }
 
 .logo img {
@@ -35,13 +14,36 @@ body {
   height: 20rem;
 }
 
+#slogan {font-size: 2em;}
+  
+.aboutus {
+  border-radius: 10px;
+  background-color: #1a5e89;
+  color: whitesmoke;
+  font-size: 1.2em;
+  text-align: center;
+  padding: 20px;
+}
+
+#hizmetlerimiz {
+  border: 2px solid black;
+  border-radius: 2em;
+  max-width: 80%;
+  padding: 10px 0px;
+  font-size: 2em;
+  margin: 1em auto; 
+  
+}
+
+
 .content {
   padding: 20px;
   text-align: center;
   justify-self: space-between;
-
 }
 
+.photo { margin-bottom: 2em;}
+ 
 .photos {
   display: flex;
   flex-wrap: wrap;
@@ -58,7 +60,6 @@ body {
   padding-left: 1rem;
   padding-top: 10px;
   font-size: 1.2em;
-
 }
 
 .photo img {
@@ -68,20 +69,18 @@ body {
 
 .footer {
   background-color:darkslategrey;
-  border: black 1px solid;
   display: flex;
-  justify-content: space-between;
+  justify-content:space-evenly;
 }
 
 .iletişim {
   color: white;
-  padding-left: 15px;
-  
+  padding-left: 2em;
 }
 
-.map {
-  position: absolute;
-  right: 0;
-  margin-right: 1rem;
+.map iframe {
+  max-width: 100%;
+  height: auto;
 }
+
 
